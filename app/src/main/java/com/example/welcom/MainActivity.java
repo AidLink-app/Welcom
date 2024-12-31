@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void loginUser() {
-        String email = emailField.getText().toString().trim();
+        String email = emailField.getText().toString();
         String password = passwordField.getText().toString().trim();
 
         if (!email.isEmpty() && !password.isEmpty()) {
